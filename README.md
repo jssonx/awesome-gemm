@@ -1,17 +1,90 @@
-# awesome-matrix-multiplication [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Matrix Multiplication 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> Introduction: This repository is dedicated to compiling an extensive list of frameworks, libraries, and software for matrix multiplication optimization. It serves as a comprehensive resource for developers and researchers interested in high-performance computing, numerical analysis, and optimization of matrix operations.
 
 
-A curated list of awesome matrix multiplication frameworks, libraries and software
+# Table of Contents
+- [Fundamental Theories and Concepts](#fundamental-theories-and-concepts)
+- [General Optimization Techniques](#general-optimization-techniques)
+- [Libraries](#libraries)
+  - [GEMM Libraries](#gemm-libraries)
+  - [Linear Algebra Libraries](#linear-algebra-libraries)
+- [University Courses \& Tutorials](#university-courses--tutorials)
+- [Blogs](#blogs)
+- [Other Learning Resources](#other-learning-resources)
+- [Tiny Examples](#tiny-examples)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-## How much compute does matrix multiplication take?
+## Fundamental Theories and Concepts
+- [General Matrix Multiply (GeMM)](https://spatial-lang.org/gemm)
+- [General Matrix Multiply (Intel)](https://www.intel.com/content/dam/develop/external/us/en/documents/intel-ocl-gemm.pdf)
+
+## General Optimization Techniques
+- [How To Optimize Gemm](https://github.com/flame/how-to-optimize-gemm): A guide and tutorial on optimizing GEMM operations.
+- [GEMM: From Pure C to SSE Optimized Micro Kernels](https://www.mathematik.uni-ulm.de/~lehn/sghpc/gemm/index.html): An in-depth look into optimizing GEMM from basic C to SSE.
+
+## Libraries
+### GEMM Libraries
+- [gemmlowp: a small self-contained low-precision GEMM library](https://github.com/google/gemmlowp): A compact library for low-precision GEMM optimization by Google.
+- [Eigen](https://eigen.tuxfamily.org/dox/TopicWritingEfficientProductExpression.html): A C++ template library for linear algebra, including matrix and vector arithmetic.
+- [MAGMA (Matrix Algebra on GPU and Multicore Architectures)](https://icl.utk.edu/magma/)
 
 
-相关资源：
+### Linear Algebra Libraries
+- [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS?tab=readme-ov-file): An optimized BLAS library based on GotoBLAS2.
+- [Intel MKL](https://software.intel.com/content/www/us/en/develop/tools/math-kernel-library.html): Intel's Math Kernel Library offering highly optimized, threaded, and vectorized functions for mathematical operations.
+- [ARM Compute Library](https://github.com/ARM-software/ComputeLibrary)
+- [NumPy](https://numpy.org/): A Python library for scientific computing with a focus on array operations.
+- [SciPy](https://www.scipy.org/): A Python library for scientific computing with a focus on linear algebra.
+- [TensorFlow](https://www.tensorflow.org/): An open-source software library for machine learning.
+- [PyTorch](https://pytorch.org/): An open-source software library for machine learning.
+- [cuBLAS](https://developer.nvidia.com/cublas): NVIDIA's implementation of the BLAS (Basic Linear Algebra Subprograms) on top of its CUDA runtime.
+- [cuSPARSE](https://developer.nvidia.com/cusparse): NVIDIA's library for sparse matrix operations on CUDA.
 
-# 优化gemm
- - https://github.com/flame/how-to-optimize-gemm/wiki
 
+## University Courses & Tutorials
+- [HLS Tutorial and Deep Learning Accelerator Design Lab1](https://courses.cs.washington.edu/courses/cse599s/18sp/hw/1.html)
+- [UCSB: CS 240A: Applied Parallel Computing](https://sites.cs.ucsb.edu/~tyang/class/240a17/refer.html)
+- [UC Berkeley: CS267](https://sites.google.com/lbl.gov/cs267-spr2023)
+- [NJIT](https://web.njit.edu/~apv6/courses/hw1.html)
+- [EE382](https://users.ece.utexas.edu/~gerstl/ee382m_f18/labs/lab2.html)
+- [Optimizing matrix multiplication](https://www.cs.purdue.edu/homes/grr/cs250/lab6-cache/optimizingMatrixMultiplication.pdf)
+- **[BLAS-level CPU Performance in 100 Lines of C](https://cs.stanford.edu/people/shadjis/blas.html)**
+- [CUDA C++ Exercise: Basic Linear Algebra Kernels: GEMM Optimization Strategies](https://bluewaters.ncsa.illinois.edu/liferay-content/image-gallery/content/BLA-final)
 
+## Blogs
+- [Optimizing Matrix Multiplication](https://coffeebeforearch.github.io/2020/06/23/mmul.html)
+- [OpenBLAS gemm从零入门](https://zhuanlan.zhihu.com/p/65436463)
+- [GEMM caching](https://zhuanlan.zhihu.com/p/69700540)
+- [ARMv7 4x4kernel 懒人优化小实践](https://zhuanlan.zhihu.com/p/333799799)
+- [Matrix Multiplication on CPU](https://marek.ai/matrix-multiplication-on-cpu.html)
+- [Optimizing matrix multiplication: cache + OpenMP](https://www.mgaillard.fr/2020/08/29/matrix-multiplication-optimizing.html)
+- **[Tuning matrix multiplication (GEMM) for Intel GPUs](https://www.ibiblio.org/e-notes/webgl/gpu/mul/intel.htm)**
+- [cuda 入门的正确姿势：how-to-optimize-gemm](https://zhuanlan.zhihu.com/p/478846788)
+- [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog](https://siboehm.com/articles/22/CUDA-MMM)
+- [Step by step optimization of cuda sgemm](https://github.com/wangzyon/NVIDIA_SGEMM_PRACTICE)
+- [OpenBLAS项目与矩阵乘法优化](https://www.leiphone.com/category/yanxishe/Puevv3ZWxn0heoEv.html)
+- [Building a FAST matrix multiplication algorithm](https://v0dro.in/blog/2018/05/01/building-a-fast-matrix-multiplication-algorithm/)
 
-# Fast Matrix Multiplication (FMM) algorithms
- - Strassen’s algorithm
+## Other Learning Resources
+- [NVIDIA Developer Blog](https://developer.nvidia.com/blog/new-cublas-12-0-features-and-matrix-multiplication-performance-on-nvidia-hopper-gpus/)
+- [Matrix Multiplication Background User's Guide](https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html)
+- [BLISlab](https://github.com/flame/blislab): A framework for experimenting with and learning about BLIS-like GEMM algorithms.
+- [Triton](https://triton-lang.org/main/getting-started/tutorials/03-matrix-multiplication.html)
+
+## Tiny Examples
+- [how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm)
+- [GEMM](https://github.com/iVishalr/GEMM): A repository demonstrating GEMM implementation.
+
+## How to Contribute
+If you have suggestions for adding or removing resources, please feel free to [open a pull request](#) or [create an issue](#).
+
+## License
+This work is shared under [MIT License](#).
+
+## Acknowledgments
+Special thanks to all the contributors and maintainers of the resources listed in this repository.
+
