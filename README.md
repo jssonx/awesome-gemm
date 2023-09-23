@@ -14,6 +14,7 @@
   - [Linear Algebra Libraries](#linear-algebra-libraries)
 - [Lecture Notes](#lecture-notes)
 - [University Courses \& Tutorials](#university-courses--tutorials)
+- [Selected Papers](#selected-papers)
 - [Blogs](#blogs)
 - [Other Learning Resources](#other-learning-resources)
 - [Tiny Examples](#tiny-examples)
@@ -65,6 +66,13 @@
 - [UC Berkeley: CS267](https://sites.google.com/lbl.gov/cs267-spr2023)
 - [UT Austin: EE382 System-on-Chip (SoC) Design](https://users.ece.utexas.edu/~gerstl/ee382m_f18/labs/lab2.htm)
 - [UT Austin (Flame): LAFF-On Programming for High Performance](https://www.cs.utexas.edu/users/flame/laff/pfhp/index.html)
+
+## Selected Papers
+- [BLIS: A Framework for Rapidly Instantiating BLAS Functionality](https://dl.acm.org/doi/10.1145/2764454)
+- [Anatomy of High-Performance Many-Threaded Matrix Multiplication](https://ieeexplore.ieee.org/document/6877334)
+- [Model-driven Level 3 BLAS Performance Optimization on Loongson 3A Processor](https://ieeexplore.ieee.org/document/6413635)
+- [High-performance implementation of the level-3 BLAS](https://dl.acm.org/doi/10.1145/1377603.1377607)
+- [Anatomy of high-performance matrix multiplication](https://dl.acm.org/doi/10.1145/1356052.1356053)
 
 ## Blogs
 - [Optimizing Matrix Multiplication](https://coffeebeforearch.github.io/2020/06/23/mmul.html)
