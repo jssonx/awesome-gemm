@@ -10,8 +10,6 @@
 - [General Optimization Techniques](#general-optimization-techniques)
 - [Frameworks](#frameworks)
 - [Libraries](#libraries)
-  - [GEMM Libraries](#gemm-libraries)
-  - [Linear Algebra Libraries](#linear-algebra-libraries)
 - [Lecture Notes](#lecture-notes)
 - [University Courses \& Tutorials](#university-courses--tutorials)
 - [Selected Papers](#selected-papers)
@@ -36,12 +34,9 @@
 - [BLISlab](https://github.com/flame/blislab): A framework for experimenting with and learning about BLIS-like GEMM algorithms.
 
 ## Libraries
-### GEMM Libraries
 - [gemmlowp: a small self-contained low-precision GEMM library](https://github.com/google/gemmlowp): A compact library for low-precision GEMM optimization by Google.
-- [Eigen](https://eigen.tuxfamily.org/dox/TopicWritingEfficientProductExpression.html): A C++ template library for linear algebra, including matrix and vector arithmetic.
-- [MAGMA (Matrix Algebra on GPU and Multicore Architectures)](https://icl.utk.edu/magma/): A collection of next-generation linear algebra libraries for heterogeneous computing
-
-### Linear Algebra Libraries
+- [Eigen](https://eigen.tuxfamily.org/dox/TopicWritingEfficientProductExpression.html): A C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+- [MAGMA (Matrix Algebra on GPU and Multicore Architectures)](https://icl.utk.edu/magma/): A collection of next-generation linear algebra libraries for heterogeneous computing.
 - [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS?tab=readme-ov-file): An optimized BLAS library based on GotoBLAS2.
   - Created by [Xianyi Zhang](https://xianyi.github.io/)
 - [Intel MKL](https://software.intel.com/content/www/us/en/develop/tools/math-kernel-library.html): Intel's Math Kernel Library offering highly optimized, threaded, and vectorized functions for mathematical operations.
@@ -50,9 +45,14 @@
 - [SciPy](https://www.scipy.org/): A Python library for scientific computing with a focus on linear algebra.
 - [TensorFlow](https://www.tensorflow.org/): An open-source software library for machine learning.
 - [PyTorch](https://pytorch.org/): An open-source software library for machine learning.
-- [cuBLAS](https://developer.nvidia.com/cublas): NVIDIA's implementation of the BLAS (Basic Linear Algebra Subprograms) on top of its CUDA runtime.
-- [cuSPARSE](https://developer.nvidia.com/cusparse): NVIDIA's library for sparse matrix operations on CUDA.
-- [libFLAME](https://shpc.oden.utexas.edu/libFLAME.html): A high performance dense linaer algebra library that is the result of the FLAME methodology for systematically developing dense linear algebra libraries. 
+- [NVIDIA cuBLAS](https://developer.nvidia.com/cublas): NVIDIA's implementation of the BLAS (Basic Linear Algebra Subprograms) on top of its CUDA runtime.
+- [NVIDIA cuSPARSE](https://developer.nvidia.com/cusparse): NVIDIA's library for sparse matrix operations on CUDA.
+- [libFLAME](https://shpc.oden.utexas.edu/libFLAME.html): A high performance dense linaer algebra library that is the result of the FLAME methodology for systematically developing dense linear algebra libraries.
+- [ViennaCL](https://viennacl.sourceforge.net/): a free open-source linear algebra library for computations on many-core architectures (GPUs, MIC) and multi-core CPUs. The library is written in C++ and supports CUDA, OpenCL, and OpenMP (including switches at runtime).
+- [CUSP](https://github.com/cusplibrary/cusplibrary): A C++ Templated Sparse Matrix Library
+- [Boost uBlas](https://www.boost.org/doc/libs/1_59_0/libs/numeric/ublas/doc/): A C++ template class library that provides BLAS level 1, 2, 3 functionality for dense, packed and sparse matrices. The design and implementation unify mathematical notation via operator overloading and efficient code generation via expression templates.
+- [CUV](https://github.com/deeplearningais/CUV): A C++ template and Python library which makes it easy to use NVIDIA(tm) CUDA.
+- [Armadillo](https://arma.sourceforge.net/): A high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use.
 
 ## Lecture Notes
 - [ORNL: CUDA C++ Exercise: Basic Linear Algebra Kernels: GEMM Optimization Strategies](https://bluewaters.ncsa.illinois.edu/liferay-content/image-gallery/content/BLA-final)
@@ -68,11 +68,11 @@
 - [UT Austin (Flame): LAFF-On Programming for High Performance](https://www.cs.utexas.edu/users/flame/laff/pfhp/index.html)
 
 ## Selected Papers
-- [BLIS: A Framework for Rapidly Instantiating BLAS Functionality](https://dl.acm.org/doi/10.1145/2764454)
-- [Anatomy of High-Performance Many-Threaded Matrix Multiplication](https://ieeexplore.ieee.org/document/6877334)
-- [Model-driven Level 3 BLAS Performance Optimization on Loongson 3A Processor](https://ieeexplore.ieee.org/document/6413635)
-- [High-performance implementation of the level-3 BLAS](https://dl.acm.org/doi/10.1145/1377603.1377607)
-- [Anatomy of high-performance matrix multiplication](https://dl.acm.org/doi/10.1145/1356052.1356053)
+- [BLIS: A Framework for Rapidly Instantiating BLAS Functionality](https://dl.acm.org/doi/10.1145/2764454). FG Van Zee, RA Van De Geijn. 2015.
+- [Anatomy of High-Performance Many-Threaded Matrix Multiplication](https://ieeexplore.ieee.org/document/6877334). TM Smith, R Van De Geijn, M Smelyanskiy, JR Hammond, FG Van Zee. 2014.
+- [Model-driven Level 3 BLAS Performance Optimization on Loongson 3A Processor](https://ieeexplore.ieee.org/document/6413635). Z Xianyi, W Qian, Z Yunquan. 2012.
+- [High-performance implementation of the level-3 BLAS](https://dl.acm.org/doi/10.1145/1377603.1377607). K Goto, R Van De Geijn. 2008.
+- [Anatomy of high-performance matrix multiplication](https://dl.acm.org/doi/10.1145/1356052.1356053). K Goto, RA Geijn. 2008.
 
 ## Blogs
 - [Optimizing Matrix Multiplication](https://coffeebeforearch.github.io/2020/06/23/mmul.html)
