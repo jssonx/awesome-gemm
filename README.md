@@ -4,15 +4,15 @@
 
 > Introduction: This repository is dedicated to compiling an extensive list of frameworks, libraries, and software for matrix multiplication optimization. It serves as a comprehensive resource for developers and researchers interested in high-performance computing, numerical analysis, and optimization of matrix operations.
 
-
 # Table of Contents
 - [Fundamental Theories and Concepts](#fundamental-theories-and-concepts)
 - [General Optimization Techniques](#general-optimization-techniques)
 - [Frameworks](#frameworks)
 - [Libraries](#libraries)
-- [Lecture Notes](#lecture-notes)
+- [Development Software: Debugging and Profiling](#development-software-debugging-and-profiling)
 - [University Courses \& Tutorials](#university-courses--tutorials)
 - [Selected Papers](#selected-papers)
+- [Lecture Notes](#lecture-notes)
 - [Blogs](#blogs)
 - [Other Learning Resources](#other-learning-resources)
 - [Tiny Examples](#tiny-examples)
@@ -37,6 +37,7 @@
 - [gemmlowp: a small self-contained low-precision GEMM library](https://github.com/google/gemmlowp): A compact library for low-precision GEMM optimization by Google.
 - [Eigen](https://eigen.tuxfamily.org/dox/TopicWritingEfficientProductExpression.html): A C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
 - [MAGMA (Matrix Algebra on GPU and Multicore Architectures)](https://icl.utk.edu/magma/): A collection of next-generation linear algebra libraries for heterogeneous computing.
+- [LAPACK](https://www.netlib.org/lapack/): A software library for numerical linear algebra.
 - [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS?tab=readme-ov-file): An optimized BLAS library based on GotoBLAS2.
   - Created by [Xianyi Zhang](https://xianyi.github.io/)
 - [Intel MKL](https://software.intel.com/content/www/us/en/develop/tools/math-kernel-library.html): Intel's Math Kernel Library offering highly optimized, threaded, and vectorized functions for mathematical operations.
@@ -54,11 +55,12 @@
 - [CUV](https://github.com/deeplearningais/CUV): A C++ template and Python library which makes it easy to use NVIDIA(tm) CUDA.
 - [Armadillo](https://arma.sourceforge.net/): A high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use.
 
-## Lecture Notes
-- [ORNL: CUDA C++ Exercise: Basic Linear Algebra Kernels: GEMM Optimization Strategies](https://bluewaters.ncsa.illinois.edu/liferay-content/image-gallery/content/BLA-final)
-- **[Stanford: BLAS-level CPU Performance in 100 Lines of C](https://cs.stanford.edu/people/shadjis/blas.html)**
-- [Puedue: Optimizing matrix multiplication](https://www.cs.purdue.edu/homes/grr/cs250/lab6-cache/optimizingMatrixMultiplication.pdf)
-- [NJIT: Optimize Matrix Multiplication](https://web.njit.edu/~apv6/courses/hw1.html)
+## Development Software: Debugging and Profiling
+- [Memcheck (Valgrind)](https://valgrind.org/docs/manual/mc-manual.html): A memory error detector.
+- [Intel VTune Profiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html): A performance analysis tool for Linux, Windows, Android, and macOS.
+- [gprof](https://hpc.llnl.gov/software/development-environment-software/gprof): A performance analysis tool for Unix applications.
+- [FPChecker](https://fpchecker.org/): A tool for detecting floating-point accuracy problems.
+- [HPCToolkit](http://hpctoolkit.org/): An integrated suite of tools for measurement and analysis of program performance on computers ranging from multicore desktop systems to the nation's largest supercomputers.
 
 ## University Courses & Tutorials
 - [HLS Tutorial and Deep Learning Accelerator Design Lab1](https://courses.cs.washington.edu/courses/cse599s/18sp/hw/1.html)
@@ -73,6 +75,12 @@
 - [Model-driven Level 3 BLAS Performance Optimization on Loongson 3A Processor](https://ieeexplore.ieee.org/document/6413635). Z Xianyi, W Qian, Z Yunquan. 2012.
 - [High-performance implementation of the level-3 BLAS](https://dl.acm.org/doi/10.1145/1377603.1377607). K Goto, R Van De Geijn. 2008.
 - [Anatomy of high-performance matrix multiplication](https://dl.acm.org/doi/10.1145/1356052.1356053). K Goto, RA Geijn. 2008.
+
+## Lecture Notes
+- [ORNL: CUDA C++ Exercise: Basic Linear Algebra Kernels: GEMM Optimization Strategies](https://bluewaters.ncsa.illinois.edu/liferay-content/image-gallery/content/BLA-final)
+- **[Stanford: BLAS-level CPU Performance in 100 Lines of C](https://cs.stanford.edu/people/shadjis/blas.html)**
+- [Puedue: Optimizing matrix multiplication](https://www.cs.purdue.edu/homes/grr/cs250/lab6-cache/optimizingMatrixMultiplication.pdf)
+- [NJIT: Optimize Matrix Multiplication](https://web.njit.edu/~apv6/courses/hw1.html)
 
 ## Blogs
 - [Optimizing Matrix Multiplication](https://coffeebeforearch.github.io/2020/06/23/mmul.html)
