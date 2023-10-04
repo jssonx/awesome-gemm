@@ -30,7 +30,7 @@
 
 ## Frameworks
 - [BLIS](https://github.com/flame/blis): A software framework for instantiating high-performance BLAS-like dense linear algebra libraries.
-  - Created by [SHPC at UT Austin (formerly FLAME)](https://shpc.oden.utexas.edu/)
+  - Created by [SHPC at UT Austin (formerly FLAME)](https://shpc.oden.utexas.edu/).
 - [BLISlab](https://github.com/flame/blislab): A framework for experimenting with and learning about BLIS-like GEMM algorithms.
 
 ## Libraries
@@ -39,7 +39,7 @@
 - [MAGMA (Matrix Algebra on GPU and Multicore Architectures)](https://icl.utk.edu/magma/): A collection of next-generation linear algebra libraries for heterogeneous computing.
 - [LAPACK](https://www.netlib.org/lapack/): A software library for numerical linear algebra.
 - [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS?tab=readme-ov-file): An optimized BLAS library based on GotoBLAS2.
-  - Created by [Xianyi Zhang](https://xianyi.github.io/)
+  - Created by [Xianyi Zhang](https://xianyi.github.io/).
 - [Intel MKL](https://software.intel.com/content/www/us/en/develop/tools/math-kernel-library.html): Intel's Math Kernel Library offering highly optimized, threaded, and vectorized functions for mathematical operations.
 - [ARM Compute Library](https://github.com/ARM-software/ComputeLibrary): A collection of low-level machine learning functions optimized for Arm® Cortex®-A, Arm® Neoverse® and Arm® Mali™ GPUs architectures.
 - [NumPy](https://numpy.org/): A Python library for scientific computing with a focus on array operations.
@@ -50,7 +50,7 @@
 - [NVIDIA cuSPARSE](https://developer.nvidia.com/cusparse): NVIDIA's library for sparse matrix operations on CUDA.
 - [libFLAME](https://shpc.oden.utexas.edu/libFLAME.html): A high performance dense linaer algebra library that is the result of the FLAME methodology for systematically developing dense linear algebra libraries.
 - [ViennaCL](https://viennacl.sourceforge.net/): a free open-source linear algebra library for computations on many-core architectures (GPUs, MIC) and multi-core CPUs. The library is written in C++ and supports CUDA, OpenCL, and OpenMP (including switches at runtime).
-- [CUSP](https://github.com/cusplibrary/cusplibrary): A C++ Templated Sparse Matrix Library
+- [CUSP](https://github.com/cusplibrary/cusplibrary): A C++ Templated Sparse Matrix Library.
 - [Boost uBlas](https://www.boost.org/doc/libs/1_59_0/libs/numeric/ublas/doc/): A C++ template class library that provides BLAS level 1, 2, 3 functionality for dense, packed and sparse matrices. The design and implementation unify mathematical notation via operator overloading and efficient code generation via expression templates.
 - [CUV](https://github.com/deeplearningais/CUV): A C++ template and Python library which makes it easy to use NVIDIA(tm) CUDA.
 - [Armadillo](https://arma.sourceforge.net/): A high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use.
