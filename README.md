@@ -2,7 +2,7 @@
 
 ![awesome-gemm](./img/awesome-gemm.PNG)
 
-> Introduction: This repository is dedicated to compiling an extensive list of frameworks, libraries, and software for matrix multiplication optimization. It serves as a comprehensive resource for developers and researchers interested in high-performance computing, numerical analysis, and optimization of matrix operations.
+> Introduction: This repository is dedicated to compiling an extensive list of frameworks, libraries, and software for matrix-matrix multiplication (A * B = C) optimization. It serves as a comprehensive resource for developers and researchers interested in high-performance computing, numerical analysis, and optimization of matrix operations.
 
 # Table of Contents
 - [Fundamental Theories and Concepts](#fundamental-theories-and-concepts)
