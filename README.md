@@ -104,9 +104,10 @@
 - [Triton](https://triton-lang.org/main/getting-started/tutorials/03-matrix-multiplication.html): A programming language for writing highly efficient GPU code.
 
 ## Tiny Examples
+- [simple-gemm](https://github.com/williamfgc/simple-gemm): Collection of simple GEMM implementations.
 - [YHs_Sample](https://github.com/Yinghan-Li/YHs_Sample): A CUDA implementation of GEMM.
-- [how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm)
-- [GEMM](https://github.com/iVishalr/GEMM)
+- [how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm): A row-major matmul optimization tutorial.
+- [GEMM](https://github.com/iVishalr/GEMM): Fast Matrix Multiplication Implementation in C.
 - [BLIS.jl](https://github.com/JuliaLinearAlgebra/BLIS.jl): A  low-level Julia wrapper for BLIS typed interface.
 - [blis_apple](https://github.com/xrq-phys/blis_apple): A BLIS library for Apple M1.
 - [DGEMM on Int8 Tensor Core](https://github.com/enp1s0/ozIMMU): A library intercepts function calls for cuBLAS DGEMM functions and executes ozIMMU instead.
