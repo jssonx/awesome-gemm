@@ -110,7 +110,7 @@
 - [BLIS.jl](https://github.com/JuliaLinearAlgebra/BLIS.jl): A  low-level Julia wrapper for BLIS typed interface.
 - [blis_apple](https://github.com/xrq-phys/blis_apple): A BLIS library for Apple M1.
 - [DGEMM on Int8 Tensor Core](https://github.com/enp1s0/ozIMMU): A library intercepts function calls for cuBLAS DGEMM functions and executes ozIMMU instead.
-- [chgemm](https://github.com/tpoisonooo/chgemm): an int8 gemm project.
+- [chgemm](https://github.com/tpoisonooo/chgemm): An int8 gemm project.
 
 ## How to Contribute
 If you have suggestions for adding or removing resources, please feel free to [open a pull request](#) or [create an issue](#).
