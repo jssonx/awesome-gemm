@@ -62,6 +62,7 @@
 - [gprof](https://hpc.llnl.gov/software/development-environment-software/gprof): A performance analysis tool for Unix applications.
 - [FPChecker](https://fpchecker.org/): A tool for detecting floating-point accuracy problems.
 - [HPCToolkit](http://hpctoolkit.org/): An integrated suite of tools for measurement and analysis of program performance on computers ranging from multicore desktop systems to the nation's largest supercomputers.
+- [MegPeak](https://github.com/MegEngine/MegPeak): A tool for testing processor peak computation, now support arm, x86 and GPU driven by OpenCL processor.
 
 ## University Courses & Tutorials
 - [HLS Tutorial and Deep Learning Accelerator Design Lab1](https://courses.cs.washington.edu/courses/cse599s/18sp/hw/1.html)
@@ -103,11 +104,13 @@
 - [Triton](https://triton-lang.org/main/getting-started/tutorials/03-matrix-multiplication.html): A programming language for writing highly efficient GPU code.
 
 ## Tiny Examples
+- [YHs_Sample](https://github.com/Yinghan-Li/YHs_Sample): A CUDA implementation of GEMM.
 - [how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm)
 - [GEMM](https://github.com/iVishalr/GEMM)
 - [BLIS.jl](https://github.com/JuliaLinearAlgebra/BLIS.jl): A  low-level Julia wrapper for BLIS typed interface.
 - [blis_apple](https://github.com/xrq-phys/blis_apple): A BLIS library for Apple M1.
 - [DGEMM on Int8 Tensor Core](https://github.com/enp1s0/ozIMMU): A library intercepts function calls for cuBLAS DGEMM functions and executes ozIMMU instead.
+- [chgemm](https://github.com/tpoisonooo/chgemm): an int8 gemm project.
 
 ## How to Contribute
 If you have suggestions for adding or removing resources, please feel free to [open a pull request](#) or [create an issue](#).
