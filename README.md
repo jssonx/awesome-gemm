@@ -106,6 +106,7 @@
 - [Triton](https://triton-lang.org/main/getting-started/tutorials/03-matrix-multiplication.html): A programming language for writing highly efficient GPU code.
 
 ## Tiny Examples
+- [SGEMM_CUDA](https://github.com/siboehm/SGEMM_CUDA): Step-by-step optimization of matrix multiplication, implemented in CUDA.
 - [simple-gemm](https://github.com/williamfgc/simple-gemm): Collection of simple GEMM implementations.
 - [YHs_Sample](https://github.com/Yinghan-Li/YHs_Sample): A CUDA implementation of GEMM.
 - [how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm): A row-major matmul optimization tutorial.
