@@ -34,7 +34,8 @@
 - [BLISlab](https://github.com/flame/blislab): A framework for experimenting with and learning about BLIS-like GEMM algorithms.
 
 ## Libraries
-- [gemmlowp: a small self-contained low-precision GEMM library](https://github.com/google/gemmlowp): A compact library for low-precision GEMM optimization by Google.
+- [NVIDIA CUTLASS 3.3](https://github.com/NVIDIA/cutlass): NVIDIA's library for developing CUDA GEMM kernels.
+- [Google gemmlowp: a small self-contained low-precision GEMM library](https://github.com/google/gemmlowp): A compact library for low-precision GEMM optimization by Google.
 - [Eigen](https://eigen.tuxfamily.org/dox/TopicWritingEfficientProductExpression.html): A C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
 - [MAGMA (Matrix Algebra on GPU and Multicore Architectures)](https://icl.utk.edu/magma/): A collection of next-generation linear algebra libraries for heterogeneous computing.
 - [LAPACK](https://www.netlib.org/lapack/): A software library for numerical linear algebra.
