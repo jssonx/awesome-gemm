@@ -55,6 +55,7 @@
 - [Boost uBlas](https://www.boost.org/doc/libs/1_59_0/libs/numeric/ublas/doc/): A C++ template class library that provides BLAS level 1, 2, 3 functionality for dense, packed and sparse matrices. The design and implementation unify mathematical notation via operator overloading and efficient code generation via expression templates.
 - [CUV](https://github.com/deeplearningais/CUV): A C++ template and Python library which makes it easy to use NVIDIA(tm) CUDA.
 - [Armadillo](https://arma.sourceforge.net/): A high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use.
+- [Blaze](https://bitbucket.org/blaze-lib/blaze/src/master/): A high performance C++ math library.
 
 ## Development Software: Debugging and Profiling
 - [Memcheck (Valgrind)](https://valgrind.org/docs/manual/mc-manual.html): A memory error detector.
@@ -92,6 +93,7 @@
 - **[Tuning matrix multiplication (GEMM) for Intel GPUs](https://www.ibiblio.org/e-notes/webgl/gpu/mul/intel.htm)**
 - [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog](https://siboehm.com/articles/22/CUDA-MMM)
 - [Building a FAST matrix multiplication algorithm](https://v0dro.in/blog/2018/05/01/building-a-fast-matrix-multiplication-algorithm/)
+- [Matrix-Matrix Product Experiments with BLAZE](https://www.mathematik.uni-ulm.de/~lehn/test_blaze/index.html)
 - [The OpenBLAS Project and Matrix Multiplication Optimization](https://www.leiphone.com/category/yanxishe/Puevv3ZWxn0heoEv.html) (Chinese)
 - [Step by step optimization of cuda sgemm](https://github.com/wangzyon/NVIDIA_SGEMM_PRACTICE) (Chinese)
 - [OpenBLAS gemm from scratch](https://zhuanlan.zhihu.com/p/65436463)(Chinese)
