@@ -104,6 +104,7 @@
 - [NVIDIA Developer Blog](https://developer.nvidia.com/blog/new-cublas-12-0-features-and-matrix-multiplication-performance-on-nvidia-hopper-gpus/): New cuBLAS 12.0 Features and Matrix Multiplication Performance on NVIDIA Hopper GPUs.
 - [Matrix Multiplication Background User's Guide](https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html): A guide to matrix multiplication performance on NVIDIA GPUs.
 - [Triton](https://triton-lang.org/main/getting-started/tutorials/03-matrix-multiplication.html): A programming language for writing highly efficient GPU code.
+- [perf-book](https://github.com/dendibakh/perf-book): "Performance Analysis and Tuning on Modern CPU" by Denis Bakhvalov, et al.
 
 ## Tiny Examples
 - [SGEMM_CUDA](https://github.com/siboehm/SGEMM_CUDA): Step-by-step optimization of matrix multiplication, implemented in CUDA.
