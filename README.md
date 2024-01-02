@@ -49,6 +49,7 @@
 - [PyTorch](https://pytorch.org/): An open-source software library for machine learning.
 - [NVIDIA cuBLAS](https://developer.nvidia.com/cublas): NVIDIA's implementation of the BLAS (Basic Linear Algebra Subprograms) on top of its CUDA runtime.
 - [NVIDIA cuSPARSE](https://developer.nvidia.com/cusparse): NVIDIA's library for sparse matrix operations on CUDA.
+- [cutlass_fpA_intB_gemm](https://github.com/tlc-pack/cutlass_fpA_intB_gemm): A standalone GEMM kernel for fp16 activation and quantized weight, extracted from FasterTransformer.
 - [libFLAME](https://shpc.oden.utexas.edu/libFLAME.html): A high performance dense linaer algebra library that is the result of the FLAME methodology for systematically developing dense linear algebra libraries.
 - [ViennaCL](https://viennacl.sourceforge.net/): a free open-source linear algebra library for computations on many-core architectures (GPUs, MIC) and multi-core CPUs. The library is written in C++ and supports CUDA, OpenCL, and OpenMP (including switches at runtime).
 - [CUSP](https://github.com/cusplibrary/cusplibrary): A C++ Templated Sparse Matrix Library.
