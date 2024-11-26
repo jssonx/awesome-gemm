@@ -96,17 +96,25 @@
 - [Boost uBlas](https://www.boost.org/doc/libs/1_59_0/libs/numeric/ublas/doc/): C++ template class library for BLAS functionality.
 
 ## Development Software: Debugging and Profiling
-- [HPCToolkit](http://hpctoolkit.org/): An integrated suite of tools for program performance measurement and analysis.
-- [Intel VTune Profiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html): A performance analysis tool for various platforms.
-- [Intel Advisor](https://www.intel.com/content/www/us/en/developer/tools/oneapi/advisor.html): A tool for vectorization optimization and memory layout transformations.
-- [gprof](https://sourceware.org/binutils/docs/gprof/): A performance analysis tool for Unix applications.
-- [gprofng](https://sourceware.org/binutils/docs/gprofng.html): Next generation profiling tool.
-  - [gprofng-gui](https://savannah.gnu.org/projects/gprofng-gui/)
-- [Memcheck (Valgrind)](https://valgrind.org/docs/manual/mc-manual.html): A memory error detector.
-- [FPChecker](https://fpchecker.org/): A tool for detecting floating-point accuracy problems.
-- [MegPeak](https://github.com/MegEngine/MegPeak): A tool for testing processor peak computation.
-- [NVIDIA Nsight Systems](https://developer.nvidia.com/nsight-systems): A system-wide performance analysis tool designed to visualize application algorithms, help with optimization, and enhance performance.
+- [Intel VTune Profiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html): A performance analysis tool for various platforms, ideal for profiling and optimizing applications on Intel architectures.
+- [Intel Advisor](https://www.intel.com/content/www/us/en/developer/tools/oneapi/advisor.html): A tool for vectorization optimization and memory layout transformations to improve application performance.
+- [NVIDIA Nsight Systems](https://developer.nvidia.com/nsight-systems): A system-wide performance analysis tool designed to visualize application algorithms, optimize performance, and enhance efficiency on NVIDIA GPUs.
 - [NVIDIA Nsight Compute](https://developer.nvidia.com/nsight-compute): A performance analysis tool for CUDA kernels, providing detailed performance metrics and API debugging.
+- [Nsight Visual Studio Edition](https://developer.nvidia.com/nsight-visual-studio-edition): An integrated development environment for debugging and profiling CUDA applications within Visual Studio.
+- [nvprof](https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview): NVIDIA's command-line profiler for CUDA applications.
+- [ROCm Profiler](https://github.com/ROCm/rocprofiler): AMD's performance analysis tool for profiling applications running on ROCm platforms.
+- [HPCToolkit](http://hpctoolkit.org/): An integrated suite of tools for program performance measurement and analysis across a range of architectures.
+- [TAU (Tuning and Analysis Utilities)](https://www.cs.uoregon.edu/research/tau/home.php): A performance evaluation tool framework for high-performance parallel programs.
+- [Perf](https://perf.wiki.kernel.org/index.php/Main_Page): A performance analyzing tool in Linux, useful for profiling CPU performance counters and system-level metrics.
+- [gprof](https://sourceware.org/binutils/docs/gprof/): A performance analysis tool for Unix applications, useful for identifying program bottlenecks.
+- [gprofng](https://sourceware.org/binutils/docs/gprofng.html): The next-generation GNU profiling tool with improved capabilities.
+  - [gprofng-gui](https://savannah.gnu.org/projects/gprofng-gui/): A graphical user interface for gprofng.
+- [LIKWID](https://github.com/RRZE-HPC/likwid): A suite of command-line tools for performance-oriented programmers to profile and optimize their applications.
+- [VAMPIR](https://vampir.eu/): A tool suite for performance analysis and visualization of parallel programs, aiding in identifying performance issues.
+- [Extrae](https://tools.bsc.es/extrae): A package that generates trace files for performance analysis, which can be visualized with Paraver.
+- [Memcheck (Valgrind)](https://valgrind.org/docs/manual/mc-manual.html): A memory error detector that helps identify issues like memory leaks and invalid memory access.
+- [FPChecker](https://fpchecker.org/): A tool for detecting floating-point accuracy problems in applications.
+- [MegPeak](https://github.com/MegEngine/MegPeak): A tool for testing processor peak computation performance, useful for benchmarking.
 
 ## Learning Resources
 
