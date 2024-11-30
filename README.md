@@ -5,24 +5,22 @@
 > **Introduction**: This repository is dedicated to compiling an extensive list of frameworks, libraries, and software for matrix-matrix multiplication (A * B = C) optimization. It serves as a comprehensive resource for developers and researchers interested in high-performance computing, numerical analysis, and optimization of matrix operations.
 
 ## Table of Contents
-- [awesome-gemm ](#awesome-gemm-)
-  - [Table of Contents](#table-of-contents)
-  - [Fundamental Theories and Concepts](#fundamental-theories-and-concepts)
-  - [General Optimization Techniques](#general-optimization-techniques)
-  - [Frameworks and Development Tools](#frameworks-and-development-tools)
-  - [Libraries](#libraries)
-    - [CPU Libraries](#cpu-libraries)
-    - [GPU Libraries](#gpu-libraries)
-    - [Cross-Platform Libraries](#cross-platform-libraries)
-    - [Language-Specific Libraries](#language-specific-libraries)
-  - [Development Software: Debugging and Profiling](#development-software-debugging-and-profiling)
-  - [Learning Resources](#learning-resources)
-    - [University Courses \& Tutorials](#university-courses--tutorials)
-    - [Selected Papers](#selected-papers)
-    - [Lecture Notes](#lecture-notes)
-    - [Blogs](#blogs)
-    - [Other Resources](#other-resources)
-  - [Example Implementations](#example-implementations)
+- [Fundamental Theories and Concepts](#fundamental-theories-and-concepts)
+- [General Optimization Techniques](#general-optimization-techniques)
+- [Frameworks and Development Tools](#frameworks-and-development-tools)
+- [Libraries](#libraries)
+  - [CPU Libraries](#cpu-libraries)
+  - [GPU Libraries](#gpu-libraries)
+  - [Cross-Platform Libraries](#cross-platform-libraries)
+  - [Language-Specific Libraries](#language-specific-libraries)
+- [Development Software: Debugging and Profiling](#development-software-debugging-and-profiling)
+- [Learning Resources](#learning-resources)
+  - [University Courses \& Tutorials](#university-courses--tutorials)
+  - [Selected Papers](#selected-papers)
+  - [Lecture Notes](#lecture-notes)
+  - [Blogs](#blogs)
+  - [Other Resources](#other-resources)
+- [Example Implementations](#example-implementations)
 
 ## Fundamental Theories and Concepts
 - [General Matrix Multiply (GeMM)](https://spatial-lang.org/gemm)
@@ -35,86 +33,86 @@
 - [GEMM: From Pure C to SSE Optimized Micro Kernels](https://www.mathematik.uni-ulm.de/~lehn/sghpc/gemm/index.html): An in-depth look into optimizing GEMM from basic C to SSE.
 
 ## Frameworks and Development Tools
-- [BLIS](https://github.com/flame/blis): A software framework for instantiating high-performance BLAS-like dense linear algebra libraries.
+- [BLIS](https://github.com/flame/blis): A software framework for instantiating high-performance BLAS-like dense linear algebra libraries. [`BSD-3-Clause`](https://github.com/flame/blis/blob/master/LICENSE.md)
   - Created by [SHPC at UT Austin (formerly FLAME)](https://shpc.oden.utexas.edu/).
 - [BLISlab](https://github.com/flame/blislab): A framework for experimenting with and learning about BLIS-like GEMM algorithms.
-- [Tensile](https://github.com/ROCm/Tensile): AMD ROCm's library for JIT compiling kernels for matrix multiplications and tensor contractions.
+- [Tensile](https://github.com/ROCm/Tensile): AMD ROCm's library for JIT compiling kernels for matrix multiplications and tensor contractions. [`MIT`](https://github.com/ROCm/Tensile/blob/develop/LICENSE.md)
 
 ## Libraries
 
 ### CPU Libraries
-- [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS): An optimized BLAS library based on GotoBLAS2.
+- [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS): An optimized BLAS library based on GotoBLAS2. [`BSD-3-Clause`](https://github.com/xianyi/OpenBLAS/blob/develop/LICENSE)
   - Created by [Xianyi Zhang](https://xianyi.github.io/).
 - [Intel MKL](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html): Intel's Math Kernel Library for optimized mathematical operations.
-- [oneDNN (formerly MKL-DNN)](https://github.com/oneapi-src/oneDNN): An open-source cross-platform performance library of deep learning building blocks, optimized for Intel architectures.
-- [FBGEMM](https://github.com/pytorch/FBGEMM): Facebook's CPU GEMM library optimized for server-side inference.
-- [Google gemmlowp](https://github.com/google/gemmlowp): A small self-contained low-precision GEMM library.
-- [libFLAME](https://shpc.oden.utexas.edu/libFLAME.html): A high-performance dense linear algebra library.
-- [blis_apple](https://github.com/xrq-phys/blis_apple): A BLIS library optimized for Apple M1.
-- [BLASFEO](https://github.com/giaf/blasfeo): Basic Linear Algebra Subroutines for Embedded Optimization, tailored for small to medium-sized matrices common in embedded optimization.
-- [LIBXSMM](https://github.com/hfp/libxsmm): A library targeting small, dense or sparse matrix multiplications, especially useful for small GEMM kernels.
+- [oneDNN (formerly MKL-DNN)](https://github.com/oneapi-src/oneDNN): An open-source cross-platform performance library of deep learning building blocks, optimized for Intel architectures. [`Apache-2.0`](https://github.com/oneapi-src/oneDNN/blob/master/LICENSE)
+- [FBGEMM](https://github.com/pytorch/FBGEMM): Facebook's CPU GEMM library optimized for server-side inference. [`BSD-3-Clause`](https://github.com/pytorch/FBGEMM/blob/master/LICENSE)
+- [Google gemmlowp](https://github.com/google/gemmlowp): A small self-contained low-precision GEMM library. [`Apache-2.0`](https://github.com/google/gemmlowp/blob/master/LICENSE)
+- [libFLAME](https://shpc.oden.utexas.edu/libFLAME.html): A high-performance dense linear algebra library. [`BSD-3-Clause`](https://github.com/flame/libflame/blob/master/LICENSE.txt)
+- [blis_apple](https://github.com/xrq-phys/blis_apple): A BLIS library optimized for Apple M1. [`BSD-3-Clause`](https://github.com/xrq-phys/blis_apple/blob/amx-dev/LICENSE)
+- [BLASFEO](https://github.com/giaf/blasfeo): Basic Linear Algebra Subroutines for Embedded Optimization, tailored for small to medium-sized matrices common in embedded optimization. [`BSD-2-Clause`](https://github.com/giaf/blasfeo/blob/master/LICENSE.txt)
+- [LIBXSMM](https://github.com/hfp/libxsmm): A library targeting small, dense or sparse matrix multiplications, especially useful for small GEMM kernels. [`BSD-3-Clause`](https://github.com/hfp/libxsmm/blob/master/LICENSE.md)
 
 ### GPU Libraries
-- [NVIDIA CUTLASS 3.3](https://github.com/NVIDIA/cutlass): NVIDIA's template library for CUDA GEMM kernels.
-- [NVIDIA cuBLAS](https://developer.nvidia.com/cublas): NVIDIA's implementation of BLAS for CUDA.
-- [NVIDIA cuSPARSE](https://developer.nvidia.com/cusparse): NVIDIA's library for sparse matrix operations.
-- [NVIDIA cuDNN](https://developer.nvidia.com/cudnn): NVIDIA's CUDA Deep Neural Network library, providing optimized primitives for deep learning, including matrix multiplication.
-- [hipBLAS](https://github.com/ROCm/hipBLAS): ROCm's BLAS implementation for GPU platforms.
-- [hipBLASLt](https://github.com/ROCm/hipBLASLt): Lightweight BLAS implementation for ROCm.
-- [hipBLAS-common](https://github.com/ROCm/hipBLAS-common): Common utilities for hipBLAS implementations.
-- [OpenAI GEMM](https://github.com/openai/openai-gemm): OpenAI's optimized GEMM implementations.
-- [Grouped GEMM](https://github.com/tgale96/grouped_gemm): Efficient implementation of grouped GEMM operations.
-- [CoralGemm](https://github.com/AMD-HPC/CoralGemm): AMD's high-performance GEMM implementation.
-- [cutlass_fpA_intB_gemm](https://github.com/tlc-pack/cutlass_fpA_intB_gemm): GEMM kernel for fp16 activation and quantized weight.
-- [DGEMM on Int8 Tensor Core](https://github.com/enp1s0/ozIMMU): Library intercepting cuBLAS DGEMM function calls.
+- [NVIDIA CUTLASS](https://github.com/NVIDIA/cutlass): NVIDIA's template library for CUDA GEMM kernels. [`BSD-3-Clause`](https://github.com/NVIDIA/cutlass/blob/main/LICENSE.txt)
+- [NVIDIA cuBLAS](https://developer.nvidia.com/cublas): NVIDIA's implementation of BLAS for CUDA. [`NVIDIA Software License`](https://docs.nvidia.com/cuda/eula/index.html)
+- [NVIDIA cuSPARSE](https://developer.nvidia.com/cusparse): NVIDIA's library for sparse matrix operations. [`NVIDIA Software License`](https://docs.nvidia.com/cuda/eula/index.html)
+- [NVIDIA cuDNN](https://developer.nvidia.com/cudnn): NVIDIA's CUDA Deep Neural Network library, providing optimized primitives for deep learning, including matrix multiplication. [`NVIDIA Software License`](https://docs.nvidia.com/deeplearning/cudnn/latest/reference/eula.html)
+- [hipBLAS](https://github.com/ROCm/hipBLAS): ROCm's BLAS implementation for GPU platforms. [`MIT`](https://github.com/ROCm/hipBLAS/blob/develop/LICENSE.md)
+- [hipBLASLt](https://github.com/ROCm/hipBLASLt): Lightweight BLAS implementation for ROCm. [`MIT`](https://github.com/ROCm/hipBLASLt/blob/develop/LICENSE.md)
+- [hipBLAS-common](https://github.com/ROCm/hipBLAS-common): Common utilities for hipBLAS implementations. [`MIT`](https://github.com/ROCm/hipBLAS-common/blob/develop/LICENSE.md)
+- [OpenAI GEMM](https://github.com/openai/openai-gemm): OpenAI's optimized GEMM implementations. [`MIT`](https://github.com/openai/openai-gemm/blob/master/LICENSE)
+- [Grouped GEMM](https://github.com/tgale96/grouped_gemm): Efficient implementation of grouped GEMM operations. [`Apache-2.0`](https://github.com/tgale96/grouped_gemm/blob/main/LICENSE)
+- [CoralGemm](https://github.com/AMD-HPC/CoralGemm): AMD's high-performance GEMM implementation. [`MIT`](https://github.com/AMD-HPC/CoralGemm/blob/master/LICENSE.md)
+- [cutlass_fpA_intB_gemm](https://github.com/tlc-pack/cutlass_fpA_intB_gemm): GEMM kernel for fp16 activation and quantized weight. [`Apache-2.0`](https://github.com/tlc-pack/cutlass_fpA_intB_gemm/blob/main/LICENSE)
+- [DGEMM on Int8 Tensor Core](https://github.com/enp1s0/ozIMMU): Library intercepting cuBLAS DGEMM function calls. [`MIT`](https://github.com/enp1s0/ozIMMU/blob/main/LICENSE)
 - [chgemm](https://github.com/tpoisonooo/chgemm): An int8 GEMM project.
-- [clBLAS](https://github.com/clMathLibraries/clBLAS): A software library containing BLAS functions written in OpenCL, making it portable across different GPU vendors.
-- [clBLAST](https://github.com/CNugteren/CLBlast): An optimized OpenCL BLAS library tuned for performance.
-- [ArrayFire](https://github.com/arrayfire/arrayfire): A general-purpose GPU library that simplifies GPU computing with high-level functions, including matrix operations.
+- [clBLAS](https://github.com/clMathLibraries/clBLAS): A software library containing BLAS functions written in OpenCL, making it portable across different GPU vendors. [`Apache-2.0`](https://github.com/clMathLibraries/clBLAS/blob/master/LICENSE)
+- [clBLAST](https://github.com/CNugteren/CLBlast): An optimized OpenCL BLAS library tuned for performance. [`Apache-2.0`](https://github.com/CNugteren/CLBlast/blob/master/LICENSE)
+- [ArrayFire](https://github.com/arrayfire/arrayfire): A general-purpose GPU library that simplifies GPU computing with high-level functions, including matrix operations. [`BSD-3-Clause`](https://github.com/arrayfire/arrayfire/blob/master/LICENSE)
 
 ### Cross-Platform Libraries
-- [MAGMA](https://icl.utk.edu/magma/): Matrix Algebra on GPU and Multicore Architectures.
-- [LAPACK](https://www.netlib.org/lapack/): Software library for numerical linear algebra.
-- [ARM Compute Library](https://github.com/ARM-software/ComputeLibrary): Machine learning functions optimized for ARM architectures.
-- [ViennaCL](https://viennacl.sourceforge.net/): Free open-source linear algebra library for many-core architectures.
-- [CUSP](https://github.com/cusplibrary/cusplibrary): A C++ Templated Sparse Matrix Library.
+- [MAGMA](https://github.com/icl-utk-edu/magma): Matrix Algebra on GPU and Multicore Architectures. [`BSD-3-Clause`](https://github.com/icl-utk-edu/magma/blob/master/COPYRIGHT)
+- [LAPACK](https://www.netlib.org/lapack/): Software library for numerical linear algebra. [`BSD-3-Clause`](https://www.netlib.org/lapack/LICENSE.txt)
+- [ARM Compute Library](https://github.com/ARM-software/ComputeLibrary): Machine learning functions optimized for ARM architectures. [`MIT`](https://github.com/ARM-software/ComputeLibrary/blob/main/LICENSES/MIT.txt) [`Apache-2.0`](https://github.com/ARM-software/ComputeLibrary/blob/main/LICENSES/Apache-2.0.txt)
+- [viennacl-dev](https://github.com/viennacl/viennacl-dev): Free open-source linear algebra library for many-core architectures. [`MIT`](https://github.com/viennacl/viennacl-dev/blob/master/LICENSE)
+- [CUSP](https://github.com/cusplibrary/cusplibrary): A C++ Templated Sparse Matrix Library. [`Apache-2.0`](https://github.com/cusplibrary/cusplibrary/blob/master/LICENSE)
 - [CUV](https://github.com/deeplearningais/CUV): A C++ template and Python library for CUDA.
-- [Ginkgo](https://github.com/ginkgo-project/ginkgo): A high-performance linear algebra library for many-core systems, designed for flexibility and efficiency.
+- [Ginkgo](https://github.com/ginkgo-project/ginkgo): A high-performance linear algebra library for many-core systems, designed for flexibility and efficiency. [`BSD-3-Clause`](https://github.com/ginkgo-project/ginkgo/blob/develop/LICENSE)
 
 ### Language-Specific Libraries
-- [NumPy](https://numpy.org/): Python library for scientific computing.
-- [SciPy](https://www.scipy.org/): Python library for scientific computing.
-- [TensorFlow](https://www.tensorflow.org/): Open-source software library for machine learning.
-- [TensorFlow XLA (Accelerated Linear Algebra)](https://www.tensorflow.org/xla): A domain-specific compiler for linear algebra that optimizes TensorFlow computations.
-- [JAX](https://github.com/google/jax): A Python library for high-performance machine learning research, enabling transformations of numerical functions.
-- [PyTorch](https://pytorch.org/): Open-source software library for machine learning.
-- [GemmKernels.jl](https://github.com/JuliaGPU/GemmKernels.jl): Julia package for GEMM operations on GPUs.
-- [BLIS.jl](https://github.com/JuliaLinearAlgebra/BLIS.jl): Julia wrapper for BLIS interface.
-- [Eigen](https://eigen.tuxfamily.org/): C++ template library for linear algebra.
-- [Blaze](https://bitbucket.org/blaze-lib/blaze/src/master/): High-performance C++ math library.
+- [NumPy](https://github.com/numpy/numpy): Python library for scientific computing. [`BSD-3-Clause`](https://github.com/numpy/numpy/blob/main/LICENSE.txt)
+- [SciPy](https://github.com/scipy/scipy): Python library for scientific computing. [`BSD-3-Clause`](https://github.com/scipy/scipy/blob/main/LICENSE.txt)
+- [TensorFlow](https://github.com/tensorflow/tensorflow): Open-source software library for machine learning. [`Apache-2.0`](https://github.com/tensorflow/tensorflow/blob/master/LICENSE)
+- [TensorFlow XLA (Accelerated Linear Algebra)](https://www.tensorflow.org/xla): A domain-specific compiler for linear algebra that optimizes TensorFlow computations. [`Apache-2.0`](https://github.com/tensorflow/tensorflow/blob/master/LICENSE)
+- [JAX](https://github.com/google/jax): A Python library for high-performance machine learning research, enabling transformations of numerical functions. [`Apache-2.0`](https://github.com/google/jax/blob/main/LICENSE)
+- [PyTorch](https://github.com/pytorch/pytorch): Open-source software library for machine learning. [`BSD-3-Clause`](https://github.com/pytorch/pytorch/blob/main/LICENSE)
+- [GemmKernels.jl](https://github.com/JuliaGPU/GemmKernels.jl): Julia package for GEMM operations on GPUs. [`BSD-3-Clause`](https://github.com/JuliaGPU/GemmKernels.jl/blob/master/LICENSE)
+- [BLIS.jl](https://github.com/JuliaLinearAlgebra/BLIS.jl): Julia wrapper for BLIS interface. [`BSD-3-Clause`](https://github.com/JuliaLinearAlgebra/BLIS.jl/blob/master/LICENSE)
+- [Eigen](https://gitlab.com/libeigen/eigen): C++ template library for linear algebra. [`MPL2`](https://gitlab.com/libeigen/eigen/-/blob/master/COPYING.MPL2)
+- [Blaze](https://bitbucket.org/blaze-lib/blaze/src/master/): High-performance C++ math library. [`BSD-3-Clause`](https://bitbucket.org/blaze-lib/blaze/src/master/LICENSE)
 - [Armadillo](https://arma.sourceforge.net/): C++ linear algebra library.
-- [Boost uBlas](https://www.boost.org/doc/libs/1_59_0/libs/numeric/ublas/doc/): C++ template class library for BLAS functionality.
+- [Boost uBlas](https://www.boost.org/doc/libs/1_59_0/libs/numeric/ublas/doc/): C++ template class library for BLAS functionality. [`Boost Software License 1.0`](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Development Software: Debugging and Profiling
 - [Intel VTune Profiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html): A performance analysis tool for various platforms, ideal for profiling and optimizing applications on Intel architectures.
 - [Intel Advisor](https://www.intel.com/content/www/us/en/developer/tools/oneapi/advisor.html): A tool for vectorization optimization and memory layout transformations to improve application performance.
-- [NVIDIA Nsight Systems](https://developer.nvidia.com/nsight-systems): A system-wide performance analysis tool designed to visualize application algorithms, optimize performance, and enhance efficiency on NVIDIA GPUs.
+- [NVIDIA Nsight Systems](https://developer.nvidia.com/nsight-systems): A system-wide performance analysis tool designed to visualize application algorithms, optimize performance, and enhance efficiency on NVIDIA GPUs. [`NVIDIA SOFTWARE LICENSE AGREEMENT`](https://docs.nvidia.com/nsight-systems/CopyrightAndLicenses/index.html)
 - [NVIDIA Nsight Compute](https://developer.nvidia.com/nsight-compute): A performance analysis tool for CUDA kernels, providing detailed performance metrics and API debugging.
 - [Nsight Visual Studio Edition](https://developer.nvidia.com/nsight-visual-studio-edition): An integrated development environment for debugging and profiling CUDA applications within Visual Studio.
-- [nvprof](https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview): NVIDIA's command-line profiler for CUDA applications.
-- [ROCm Profiler](https://github.com/ROCm/rocprofiler): AMD's performance analysis tool for profiling applications running on ROCm platforms.
-- [HPCToolkit](http://hpctoolkit.org/): An integrated suite of tools for program performance measurement and analysis across a range of architectures.
+- [nvprof](https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview): NVIDIA's command-line profiler for CUDA applications. [`NVIDIA End User License Agreement`](https://docs.nvidia.com/cuda/eula/index.html)
+- [ROCm Profiler](https://github.com/ROCm/rocprofiler): AMD's performance analysis tool for profiling applications running on ROCm platforms. [`MIT`](https://github.com/ROCm/rocprofiler/blob/amd-staging/LICENSE)
+- [HPCToolkit](https://gitlab.com/hpctoolkit/hpctoolkit): An integrated suite of tools for program performance measurement and analysis across a range of architectures. [`BSD-3-Clause`](https://gitlab.com/hpctoolkit/hpctoolkit/-/blob/develop/LICENSE.md)
 - [TAU (Tuning and Analysis Utilities)](https://www.cs.uoregon.edu/research/tau/home.php): A performance evaluation tool framework for high-performance parallel programs.
-- [Perf](https://perf.wiki.kernel.org/index.php/Main_Page): A performance analyzing tool in Linux, useful for profiling CPU performance counters and system-level metrics.
-- [gprof](https://sourceware.org/binutils/docs/gprof/): A performance analysis tool for Unix applications, useful for identifying program bottlenecks.
-- [gprofng](https://sourceware.org/binutils/docs/gprofng.html): The next-generation GNU profiling tool with improved capabilities.
-  - [gprofng-gui](https://savannah.gnu.org/projects/gprofng-gui/): A graphical user interface for gprofng.
-- [LIKWID](https://github.com/RRZE-HPC/likwid): A suite of command-line tools for performance-oriented programmers to profile and optimize their applications.
-- [VAMPIR](https://vampir.eu/): A tool suite for performance analysis and visualization of parallel programs, aiding in identifying performance issues.
-- [Extrae](https://tools.bsc.es/extrae): A package that generates trace files for performance analysis, which can be visualized with Paraver.
-- [Memcheck (Valgrind)](https://valgrind.org/docs/manual/mc-manual.html): A memory error detector that helps identify issues like memory leaks and invalid memory access.
-- [FPChecker](https://fpchecker.org/): A tool for detecting floating-point accuracy problems in applications.
-- [MegPeak](https://github.com/MegEngine/MegPeak): A tool for testing processor peak computation performance, useful for benchmarking.
+- [Perf](https://perf.wiki.kernel.org/index.php/Main_Page): A performance analyzing tool in Linux, useful for profiling CPU performance counters and system-level metrics. [`GPLv2`](https://github.com/torvalds/linux/blob/master/COPYING)
+- [gprof](https://sourceware.org/binutils/docs/gprof/): A performance analysis tool for Unix applications, useful for identifying program bottlenecks. [`GPLv3`](https://www.gnu.org/licenses/gpl-3.0.html)
+- [gprofng](https://sourceware.org/binutils/docs/gprofng.html): The next-generation GNU profiling tool with improved capabilities. [`GPLv3`](https://www.gnu.org/licenses/gpl-3.0.html)
+  - [gprofng-gui](https://savannah.gnu.org/projects/gprofng-gui/): A graphical user interface for gprofng. [`GPLv3`](https://www.gnu.org/licenses/gpl-3.0.html)
+- [LIKWID](https://github.com/RRZE-HPC/likwid): A suite of command-line tools for performance-oriented programmers to profile and optimize their applications. [`GPLv3`](https://github.com/RRZE-HPC/likwid/blob/master/COPYING)
+- [VAMPIR](https://vampir.eu/): A tool suite for performance analysis and visualization of parallel programs, aiding in identifying performance issues. [`Proprietary`](https://vampir.eu/)
+- [Extrae](https://tools.bsc.es/extrae): A package that generates trace files for performance analysis, which can be visualized with Paraver. [`GPLv2.1`](https://github.com/bsc-performance-tools/extrae/blob/master/COPYING)
+- [Memcheck (Valgrind)](https://valgrind.org/docs/manual/mc-manual.html): A memory error detector that helps identify issues like memory leaks and invalid memory access. [`GPLv2`](https://sourceware.org/git/?p=valgrind.git;a=blob_plain;f=COPYING;hb=HEAD)
+- [FPChecker](https://github.com/LLNL/FPChecker): A tool for detecting floating-point accuracy problems in applications. [`BSD-3-Clause`](https://github.com/LLNL/FPChecker/blob/master/LICENSE)
+- [MegPeak](https://github.com/MegEngine/MegPeak): A tool for testing processor peak computation performance, useful for benchmarking. [`Apache-2.0`](https://github.com/MegEngine/MegPeak/blob/main/LICENSE)
 
 ## Learning Resources
 
@@ -167,13 +165,13 @@
 - [The High-Performance Computing (HPC) Garage](https://github.com/hpcgarage): A collection of HPC codes and tools from the Innovative Computing Laboratory (ICL) at the University of Tennessee.
 
 ## Example Implementations
-- [SGEMM_CUDA](https://github.com/siboehm/SGEMM_CUDA): Step-by-step optimization of matrix multiplication in CUDA.
-- [simple-gemm](https://github.com/williamfgc/simple-gemm): Collection of simple GEMM implementations.
-- [YHs_Sample](https://github.com/Yinghan-Li/YHs_Sample): A CUDA implementation of GEMM.
-- [how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm): A row-major matmul optimization tutorial.
-- [GEMM](https://github.com/iVishalr/GEMM): Fast Matrix Multiplication Implementation in C.
-- [GEMM Optimization with LIBXSMM](https://github.com/hfp/libxsmm/tree/master/samples): Sample codes showing how to use LIBXSMM for optimizing small matrix multiplications.
-- [Deep Learning GEMM Benchmarks](https://github.com/baidu-research/DeepBench): Benchmarks for measuring the performance of basic deep learning operations including GEMM.
+- [SGEMM_CUDA](https://github.com/siboehm/SGEMM_CUDA): Step-by-step optimization of matrix multiplication in CUDA. [`MIT`](https://github.com/siboehm/SGEMM_CUDA/blob/master/LICENSE)
+- [simple-gemm](https://github.com/williamfgc/simple-gemm): Collection of simple GEMM implementations. [`MIT`](https://github.com/williamfgc/simple-gemm/blob/main/LICENSE)
+- [YHs_Sample](https://github.com/Yinghan-Li/YHs_Sample): A CUDA implementation of GEMM. [`GPLv3`](https://github.com/Yinghan-Li/YHs_Sample/blob/master/LICENSE)
+- [how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm): A row-major matmul optimization tutorial. [`GPLv3`](https://github.com/tpoisonooo/how-to-optimize-gemm/blob/master/LICENSE)
+- [GEMM](https://github.com/iVishalr/GEMM): Fast Matrix Multiplication Implementation in C. [`MIT`](https://github.com/iVishalr/GEMM/blob/main/LICENSE)
+- [GEMM Optimization with LIBXSMM](https://github.com/hfp/libxsmm/tree/main/samples): Sample codes showing how to use LIBXSMM for optimizing small matrix multiplications. [`BSD-3-Clause`](https://github.com/libxsmm/libxsmm/blob/main/LICENSE.md)
+- [Deep Learning GEMM Benchmarks](https://github.com/baidu-research/DeepBench): Benchmarks for measuring the performance of basic deep learning operations including GEMM. [`Apache-2.0`](https://github.com/baidu-research/DeepBench/blob/master/LICENSE)
 
 ---
 
