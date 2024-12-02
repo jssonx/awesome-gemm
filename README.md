@@ -140,12 +140,17 @@
 - [Optimizing Matrix Multiplication using SIMD and Parallelization](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/6-172-fall-2018/lecture-notes/MIT6_172F18_lec5.pdf): An in-depth guide on optimizing GEMM using SIMD instructions and parallel programming.
 
 ### Blogs
-- [Optimizing Matrix Multiplication](https://coffeebeforearch.github.io/2020/06/23/mmul.html)
-- [GEMM Caching](https://zhuanlan.zhihu.com/p/69700540)
+- [Distributed GEMM - A novel CUTLASS-based implementation of Tensor Parallelism for NVLink-enabled systems](https://blog.shi-labs.com/distributed-gemm-88be6a481e2b)
+- [Outperforming cuBLAS on H100: a Worklog](https://cudaforfun.substack.com/p/outperforming-cublas-on-h100-a-worklog)
+- [Deep Dive on CUTLASS Ping-Pong GEMM Kernel](https://pytorch.org/blog/cutlass-ping-pong-gemm-kernel/)
+- [CUTLASS Tutorial: Efficient GEMM kernel designs with Pipelining](https://research.colfax-intl.com/cutlass-tutorial-design-of-a-gemm-kernel/)
+- [Developing CUDA Kernels for GEMM on NVIDIA Hopper Architecture using CUTLASS](https://research.colfax-intl.com/nvidia-hopper-gemm-cutlass/)
+- [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: A Worklog](https://siboehm.com/articles/22/CUDA-MMM)
+- [Fast Multidimensional Matrix Multiplication on CPU from Scratch](https://siboehm.com/articles/22/Fast-MMM-on-CPU)
 - [Matrix Multiplication on CPU](https://marek.ai/matrix-multiplication-on-cpu.html)
+- [Optimizing Matrix Multiplication](https://coffeebeforearch.github.io/2020/06/23/mmul.html)
 - [Optimizing Matrix Multiplication: Cache + OpenMP](https://www.mgaillard.fr/2020/08/29/matrix-multiplication-optimizing.html)
 - [Tuning Matrix Multiplication (GEMM) for Intel GPUs](https://www.ibiblio.org/e-notes/webgl/gpu/mul/intel.htm)
-- [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: A Worklog](https://siboehm.com/articles/22/CUDA-MMM)
 - [Building a FAST Matrix Multiplication Algorithm](https://v0dro.in/blog/2018/05/01/building-a-fast-matrix-multiplication-algorithm/)
 - [Matrix-Matrix Product Experiments with BLAZE](https://www.mathematik.uni-ulm.de/~lehn/test_blaze/index.html)
 - [CUDA Learn Notes](https://github.com/DefTruth/CUDA-Learn-Notes): Comprehensive notes on CUDA programming and optimization.
@@ -156,6 +161,7 @@
 - [OpenBLAS GEMM from Scratch](https://zhuanlan.zhihu.com/p/65436463) (Chinese)
 - [The Proper Approach to CUDA for Beginners: How to Optimize GEMM](https://zhuanlan.zhihu.com/p/478846788) (Chinese)
 - [ARMv7 4x4kernel Optimization Practice](https://zhuanlan.zhihu.com/p/333799799) (Chinese)
+- [GEMM Caching](https://zhuanlan.zhihu.com/p/69700540) (Chinese)
 
 ### Other Resources
 - [NVIDIA Developer Blog](https://developer.nvidia.com/blog/new-cublas-12-0-features-and-matrix-multiplication-performance-on-nvidia-hopper-gpus/): New cuBLAS 12.0 Features and Matrix Multiplication Performance.
