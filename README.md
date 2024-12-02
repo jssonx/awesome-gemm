@@ -137,7 +137,7 @@
 - [Stanford: BLAS-level CPU Performance in 100 Lines of C](https://cs.stanford.edu/people/shadjis/blas.html)
 - [Purdue: Optimizing Matrix Multiplication](https://www.cs.purdue.edu/homes/grr/cs250/lab6-cache/optimizingMatrixMultiplication.pdf)
 - [NJIT: Optimize Matrix Multiplication](https://web.njit.edu/~apv6/courses/hw1.html)
-- [Optimizing Matrix Multiplication using SIMD and Parallelization](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/6-172-fall-2018/lecture-notes/MIT6_172F18_lec5.pdf): An in-depth guide on optimizing GEMM using SIMD instructions and parallel programming.
+- [Optimizing Matrix Multiplication using SIMD and Parallelization](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/6-172-fall-2018/lecture-notes/MIT6_172F18_lec5.pdf)
 
 ### Blogs
 - [Distributed GEMM - A novel CUTLASS-based implementation of Tensor Parallelism for NVLink-enabled systems](https://blog.shi-labs.com/distributed-gemm-88be6a481e2b)
@@ -153,9 +153,9 @@
 - [Tuning Matrix Multiplication (GEMM) for Intel GPUs](https://www.ibiblio.org/e-notes/webgl/gpu/mul/intel.htm)
 - [Building a FAST Matrix Multiplication Algorithm](https://v0dro.in/blog/2018/05/01/building-a-fast-matrix-multiplication-algorithm/)
 - [Matrix-Matrix Product Experiments with BLAZE](https://www.mathematik.uni-ulm.de/~lehn/test_blaze/index.html)
-- [CUDA Learn Notes](https://github.com/DefTruth/CUDA-Learn-Notes): Comprehensive notes on CUDA programming and optimization.
-- [CUDA GEMM Optimization](https://github.com/leimao/CUDA-GEMM-Optimization): Step-by-step GEMM optimization tutorial.
-- [Why GEMM is at the heart of deep learning](https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/): Discusses the importance of GEMM in deep learning and strategies for optimization.
+- [CUDA Learn Notes](https://github.com/DefTruth/CUDA-Learn-Notes)
+- [CUDA GEMM Optimization](https://github.com/leimao/CUDA-GEMM-Optimization)
+- [Why GEMM is at the heart of deep learning](https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/)
 - [The OpenBLAS Project and Matrix Multiplication Optimization](https://www.leiphone.com/category/yanxishe/Puevv3ZWxn0heoEv.html) (Chinese)
 - [Step by Step Optimization of CUDA SGEMM](https://github.com/wangzyon/NVIDIA_SGEMM_PRACTICE) (Chinese)
 - [OpenBLAS GEMM from Scratch](https://zhuanlan.zhihu.com/p/65436463) (Chinese)
