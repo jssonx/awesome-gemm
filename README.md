@@ -171,6 +171,7 @@
 - [The High-Performance Computing (HPC) Garage](https://github.com/hpcgarage): A collection of HPC codes and tools from the Innovative Computing Laboratory (ICL) at the University of Tennessee.
 
 ## Example Implementations
+- [Toy HGEMM Library using Tensor Cores with MMA/WMMA/CuTe](https://github.com/DefTruth/hgemm-tensorcores-mma): May achieve the 98%~100% performance of cuBLAS. [`GPLv3`](https://github.com/DefTruth/hgemm-tensorcores-mma/blob/main/LICENSE)
 - [SGEMM_CUDA](https://github.com/siboehm/SGEMM_CUDA): Step-by-step optimization of matrix multiplication in CUDA. [`MIT`](https://github.com/siboehm/SGEMM_CUDA/blob/master/LICENSE)
 - [simple-gemm](https://github.com/williamfgc/simple-gemm): Collection of simple GEMM implementations. [`MIT`](https://github.com/williamfgc/simple-gemm/blob/main/LICENSE)
 - [YHs_Sample](https://github.com/Yinghan-Li/YHs_Sample): A CUDA implementation of GEMM. [`GPLv3`](https://github.com/Yinghan-Li/YHs_Sample/blob/master/LICENSE)
