@@ -230,6 +230,7 @@ If you’re new and just want to dive in, start here:
 - [how-to-optimize-gemm (row-major matmul)](https://github.com/tpoisonooo/how-to-optimize-gemm) (GPLv3)
 - [SGEMM_CUDA: Step-by-Step Optimization](https://github.com/siboehm/SGEMM_CUDA) (MIT)
 - [simple-gemm](https://github.com/williamfgc/simple-gemm) (MIT)
+- [TK-GEMM: a Triton FP8 GEMM kernel using SplitK parallelization](https://pytorch.org/blog/accelerating-llama3/)
 - [Toy HGEMM (Tensor Cores with MMA/WMMA)](https://github.com/DefTruth/hgemm-tensorcores-mma) (GPLv3)
 
 ---
