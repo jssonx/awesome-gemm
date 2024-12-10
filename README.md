@@ -200,17 +200,21 @@ If you’re new and just want to dive in, start here:
 
 ### Blogs 🖋️
 
+- [A Case Study in CUDA Kernel Fusion: Implementing FlashAttention-2 on NVIDIA Hopper Architecture using the CUTLASS Library](https://research.colfax-intl.com/nvidia-hopper-flashattention-2/)
 - [Building a FAST Matrix Multiplication Algorithm](https://v0dro.in/blog/2018/05/01/building-a-fast-matrix-multiplication-algorithm/)
 - [CUDA GEMM Optimization](https://github.com/leimao/CUDA-GEMM-Optimization)
 - [CUDA Learn Notes](https://github.com/DefTruth/CUDA-Learn-Notes)
 - [CUTLASS Tutorial: Efficient GEMM kernel designs with Pipelining](https://research.colfax-intl.com/cutlass-tutorial-design-of-a-gemm-kernel/)
+- [CUTLASS Tutorial: Fast Matrix-Multiplication with WGMMA on NVIDIA® Hopper™ GPUs](https://research.colfax-intl.com/cutlass-tutorial-wgmma-hopper/)
 - [Deep Dive on CUTLASS Ping-Pong GEMM Kernel](https://pytorch.org/blog/cutlass-ping-pong-gemm-kernel/)
 - [Developing CUDA Kernels for GEMM on NVIDIA Hopper Architecture using CUTLASS](https://research.colfax-intl.com/nvidia-hopper-gemm-cutlass/)
 - [Distributed GEMM - A novel CUTLASS-based implementation of Tensor Parallelism for NVLink-enabled systems](https://blog.shi-labs.com/distributed-gemm-88be6a481e2b)
+- [Epilogue Fusion in CUTLASS with Epilogue Visitor Trees](https://research.colfax-intl.com/epilogue_visitor_tree/)
 - [Fast Multidimensional Matrix Multiplication on CPU from Scratch](https://siboehm.com/articles/22/Fast-MMM-on-CPU)
 - [Matrix Multiplication Background Guide (NVIDIA)](https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html)
 - [Matrix Multiplication on CPU](https://marek.ai/matrix-multiplication-on-cpu.html)
 - [Matrix-Matrix Product Experiments with BLAZE](https://www.mathematik.uni-ulm.de/~lehn/test_blaze/index.html)
+- [Mixed-input matrix multiplication performance optimizations](https://research.google/blog/mixed-input-matrix-multiplication-performance-optimizations/)
 - [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: A Worklog](https://siboehm.com/articles/22/CUDA-MMM)
 - [Outperforming cuBLAS on H100: a Worklog](https://cudaforfun.substack.com/p/outperforming-cublas-on-h100-a-worklog)
 - [Optimizing Matrix Multiplication](https://coffeebeforearch.github.io/2020/06/23/mmul.html)
