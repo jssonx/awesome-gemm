@@ -46,7 +46,7 @@ If you’re new and just want to dive in, start here:
   - [GPU Libraries ⚡](#gpu-libraries-)
   - [Cross-Platform Libraries 🌍](#cross-platform-libraries-)
   - [Language-Specific Libraries 🔤](#language-specific-libraries-)
-- [Development Software: Debugging and Profiling 🔍](#development-software-debugging-and-profiling-)
+- [Debugging and Profiling Tools 🔍](#debugging-and-profiling-tools-)
 - [Learning Resources 📚](#learning-resources-)
   - [University Courses & Tutorials 🎓](#university-courses--tutorials-)
   - [Selected Papers 📝](#selected-papers-)
@@ -143,7 +143,7 @@ If you’re new and just want to dive in, start here:
 
 ---
 
-## Development Software: Debugging and Profiling 🔍
+## Debugging and Profiling Tools 🔍
 
 **Intel Tools:**
 - [Intel Advisor](https://www.intel.com/content/www/us/en/developer/tools/oneapi/advisor.html)
