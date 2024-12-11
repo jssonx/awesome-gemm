@@ -148,6 +148,7 @@ If you’re new and just want to dive in, start here:
 **Intel Tools:**
 - [Intel Advisor](https://www.intel.com/content/www/us/en/developer/tools/oneapi/advisor.html)
 - [Intel VTune Profiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html)
+- [unitrace](https://github.com/intel/pti-gpu/tree/master/tools/unitrace)
 
 **NVIDIA Tools:**
 - [Nsight Compute](https://developer.nvidia.com/nsight-compute)
