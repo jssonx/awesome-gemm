@@ -109,6 +109,7 @@ If you’re new and just want to dive in, start here:
 - [NVIDIA cuDNN: Deep learning primitives, including GEMM](https://developer.nvidia.com/cudnn) (NVIDIA License)
 - [NVIDIA cuSPARSE: Sparse matrix computations on NVIDIA GPUs](https://developer.nvidia.com/cusparse) (NVIDIA License)
 - [NVIDIA CUTLASS: Template library for CUDA GEMM kernels](https://github.com/NVIDIA/cutlass) (BSD-3-Clause)
+- [TileFusion: Simplifying Kernel Fusion with Tile Processing](https://github.com/microsoft/TileFusion) (MIT)
 
 ### Cross-Platform Libraries 🌍
 
