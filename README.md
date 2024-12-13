@@ -216,6 +216,7 @@ If you’re new and just want to dive in, start here:
 - [Matrix Multiplication Background Guide (NVIDIA)](https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html)
 - [Matrix Multiplication on CPU](https://marek.ai/matrix-multiplication-on-cpu.html)
 - [Matrix-Matrix Product Experiments with BLAZE](https://www.mathematik.uni-ulm.de/~lehn/test_blaze/index.html)
+- [Mixed-Input GEMM Kernel Optimized for NVIDIA Hopper GPUs](https://neuralmagic.com/blog/introducing-machete-a-mixed-input-gemm-kernel-optimized-for-nvidia-hopper-gpus/)
 - [Mixed-input matrix multiplication performance optimizations](https://research.google/blog/mixed-input-matrix-multiplication-performance-optimizations/)
 - [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: A Worklog](https://siboehm.com/articles/22/CUDA-MMM)
 - [Outperforming cuBLAS on H100: a Worklog](https://cudaforfun.substack.com/p/outperforming-cublas-on-h100-a-worklog)
