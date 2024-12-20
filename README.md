@@ -101,6 +101,8 @@ If you’re new and just want to dive in, start here:
 
 ### GPU Libraries ⚡
 
+- [BitBLAS: Mixed-precision BLAS operations on GPUs](https://github.com/microsoft/BitBLAS) (MIT)
+  - [BitBLAS-Benchmark](https://github.com/LeiWang1999/bitblas-benchmark)
 - [clBLAS: BLAS functions on OpenCL for portability](https://github.com/clMathLibraries/clBLAS) (Apache-2.0)
 - [CLBlast: Tuned OpenCL BLAS library](https://github.com/CNugteren/CLBlast) (Apache-2.0)
 - [hipBLAS: BLAS for AMD GPU platforms (ROCm)](https://github.com/ROCm/hipBLAS) (MIT)
@@ -109,6 +111,7 @@ If you’re new and just want to dive in, start here:
 - [NVIDIA cuDNN: Deep learning primitives, including GEMM](https://developer.nvidia.com/cudnn) (NVIDIA License)
 - [NVIDIA cuSPARSE: Sparse matrix computations on NVIDIA GPUs](https://developer.nvidia.com/cusparse) (NVIDIA License)
 - [NVIDIA CUTLASS: Template library for CUDA GEMM kernels](https://github.com/NVIDIA/cutlass) (BSD-3-Clause)
+- [TiledCUDA: Kernel template library designed to elevate CUDA C’s level of abstraction for processing tiles](https://github.com/TiledTensor/TiledCUDA)
 - [TileFusion: Simplifying Kernel Fusion with Tile Processing](https://github.com/microsoft/TileFusion) (MIT)
 
 ### Cross-Platform Libraries 🌍
@@ -178,6 +181,7 @@ If you’re new and just want to dive in, start here:
 
 ### University Courses & Tutorials 🎓
 
+- [CUDATutorial](https://github.com/PaddleJitLab/CUDATutorial)
 - [GPU MODE YouTube Channel](https://www.youtube.com/channel/UCJgIbYl6C5no72a0NUAPcTA)
 - [HLS Tutorial & Deep Learning Accelerator Lab1](https://courses.cs.washington.edu/courses/cse599s/18sp/hw/1.html)
 - [HPC Garage](https://github.com/hpcgarage)
@@ -232,13 +236,21 @@ If you’re new and just want to dive in, start here:
 
 - [chgemm: Int8 GEMM implementations](https://github.com/tpoisonooo/chgemm)
 - [CoralGemm: AMD high-performance GEMM implementations](https://github.com/AMD-HPC/CoralGemm) (MIT)
+- [CUDA-INT8-GEMM](https://github.com/jundaf2/CUDA-INT8-GEMM)
+- [cuda-sgemm](https://github.com/nicolaswilde/cuda-sgemm)
+- [cute_gemm](https://github.com/weishengying/cute_gemm)
+- [Cute-Learning](https://github.com/DD-DuDa/Cute-Learning) (MIT)
 - [CUTLASS-based Grouped GEMM: Efficient grouped GEMM operations](https://github.com/tgale96/grouped_gemm) (Apache-2.0)
+- [CUTLASS GEMM](https://github.com/Bruce-Lee-LY/cutlass_gemm) (BSD-3-Clause)
 - [DeepBench](https://github.com/baidu-research/DeepBench) (Apache-2.0)
 - [how-to-optimize-gemm (row-major matmul)](https://github.com/tpoisonooo/how-to-optimize-gemm) (GPLv3)
+- [NVIDIA_SGEMM_PRACTICE: Step-by-step optimization of CUDA SGEMM](https://github.com/wangzyon/NVIDIA_SGEMM_PRACTICE)
+- [Optimizing-SGEMM-on-NVIDIA-Turing-GPUs](https://github.com/yzhaiustc/Optimizing-SGEMM-on-NVIDIA-Turing-GPUs) (GPLv3)
 - [SGEMM_CUDA: Step-by-Step Optimization](https://github.com/siboehm/SGEMM_CUDA) (MIT)
 - [simple-gemm](https://github.com/williamfgc/simple-gemm) (MIT)
 - [TK-GEMM: a Triton FP8 GEMM kernel using SplitK parallelization](https://pytorch.org/blog/accelerating-llama3/)
 - [Toy HGEMM (Tensor Cores with MMA/WMMA)](https://github.com/DefTruth/hgemm-tensorcores-mma) (GPLv3)
+- [xGeMM: Accelerated General (FP32) Matrix Multiplication](https://github.com/tgautam03/xGeMM) (MIT)
 
 ---
 
